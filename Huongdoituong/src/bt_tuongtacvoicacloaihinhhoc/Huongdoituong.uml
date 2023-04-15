@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_KbIzIB-BEe2ZIM1wsb2erg" name="Huongdoituong">
+    <eAnnotations xmi:id="_rzmzsB-BEe2ZIM1wsb2erg" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_rzmzsR-BEe2ZIM1wsb2erg" source="codegen">
+        <details xmi:id="_rzmzsh-BEe2ZIM1wsb2erg" key="codegenDirectory" value="/Huongdoituong/src"/>
+        <details xmi:id="_r635UB-BEe2ZIM1wsb2erg" key="AssociatedSourceCode" value="/Huongdoituong/src/bt_tuongtacvoicacloaihinhhoc/HinhHoc.java;2826171204/1;/Huongdoituong/src/bt_tuongtacvoicacloaihinhhoc/HinhChuNhat.java;2636906107/1;/Huongdoituong/src/bt_tuongtacvoicacloaihinhhoc/HinhTron.java;198456902/1;/Huongdoituong/src/bt_tuongtacvoicacloaihinhhoc/DanhSachHinh.java;1525817208/1;/Huongdoituong/src/bt_tuongtacvoicacloaihinhhoc/Main.java;956848578/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_rzFPQB-BEe2ZIM1wsb2erg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_rzGdYB-BEe2ZIM1wsb2erg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_rzGdYR-BEe2ZIM1wsb2erg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_rzGdYh-BEe2ZIM1wsb2erg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_rzHEcB-BEe2ZIM1wsb2erg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_rzHEcR-BEe2ZIM1wsb2erg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_rzHEch-BEe2ZIM1wsb2erg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_rzHEcx-BEe2ZIM1wsb2erg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_rzHrgB-BEe2ZIM1wsb2erg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_rzQ1cB-BEe2ZIM1wsb2erg" name="bt_tuongtacvoicacloaihinhhoc">
+      <packagedElement xmi:type="uml:Class" xmi:id="_rzVG4B-BEe2ZIM1wsb2erg" name="HinhHoc" isAbstract="true">
+        <ownedOperation xmi:id="_rzrFIB-BEe2ZIM1wsb2erg" name="tinhDienTich" isAbstract="true">
+          <ownedParameter xmi:id="_rzs6UB-BEe2ZIM1wsb2erg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_tA9-sB-BEe2ZIM1wsb2erg" name="HinhChuNhat">
+        <generalization xmi:id="_tBlCsB-BEe2ZIM1wsb2erg" general="_rzVG4B-BEe2ZIM1wsb2erg"/>
+        <ownedAttribute xmi:id="_tBmQ0B-BEe2ZIM1wsb2erg" name="chieuDai" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_tB5y0B-BEe2ZIM1wsb2erg" name="chieuRong" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tBzFIB-BEe2ZIM1wsb2erg" name="HinhChuNhat" specification="_tA_z4B-BEe2ZIM1wsb2erg">
+          <ownedParameter xmi:id="_tBzFIR-BEe2ZIM1wsb2erg" type="_tA9-sB-BEe2ZIM1wsb2erg" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>super();&#xD;
+		// TODO Auto-generated constructor stub&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tB39oB-BEe2ZIM1wsb2erg" name="HinhChuNhat" specification="_tBBCAB-BEe2ZIM1wsb2erg">
+          <ownedParameter xmi:id="_tB39oR-BEe2ZIM1wsb2erg" name="chieuDai">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_tB39oh-BEe2ZIM1wsb2erg" name="chieuRong">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_tB39ox-BEe2ZIM1wsb2erg" type="_tA9-sB-BEe2ZIM1wsb2erg" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>super();&#xD;
+		this.chieuDai = chieuDai;&#xD;
+		this.chieuRong = chieuRong;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tB4ksB-BEe2ZIM1wsb2erg" name="tinhDienTich" specification="_tBCQIB-BEe2ZIM1wsb2erg">
+          <ownedParameter xmi:id="_tB4ksR-BEe2ZIM1wsb2erg" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return chieuDai*chieuRong;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tB4ksh-BEe2ZIM1wsb2erg" name="toString" specification="_tBIWwB-BEe2ZIM1wsb2erg">
+          <ownedParameter xmi:id="_tB4ksx-BEe2ZIM1wsb2erg" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &quot;Hình chữ nhật có chiều dài = &quot;+this.chieuDai+&#xD;
+				&quot;, Chiều rộng = &quot;+this.chieuRong+&quot;, diện tích = &quot;+tinhDienTich();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_tA_z4B-BEe2ZIM1wsb2erg" name="HinhChuNhat" method="_tBzFIB-BEe2ZIM1wsb2erg">
+          <eAnnotations xmi:id="_tA_z4R-BEe2ZIM1wsb2erg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_tBAa8B-BEe2ZIM1wsb2erg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_tBAa8R-BEe2ZIM1wsb2erg" type="_tA9-sB-BEe2ZIM1wsb2erg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_tBBCAB-BEe2ZIM1wsb2erg" name="HinhChuNhat" method="_tB39oB-BEe2ZIM1wsb2erg">
+          <eAnnotations xmi:id="_tBBpER-BEe2ZIM1wsb2erg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_tBBpEh-BEe2ZIM1wsb2erg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_tBBCAR-BEe2ZIM1wsb2erg" name="chieuDai">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_tBBpEB-BEe2ZIM1wsb2erg" name="chieuRong">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_tBBpEx-BEe2ZIM1wsb2erg" type="_tA9-sB-BEe2ZIM1wsb2erg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_tBCQIB-BEe2ZIM1wsb2erg" name="tinhDienTich" method="_tB4ksB-BEe2ZIM1wsb2erg">
+          <ownedParameter xmi:id="_tBCQIR-BEe2ZIM1wsb2erg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_tBIWwB-BEe2ZIM1wsb2erg" name="toString" method="_tB4ksh-BEe2ZIM1wsb2erg">
+          <ownedParameter xmi:id="_tBI90B-BEe2ZIM1wsb2erg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_uJS4sB-BEe2ZIM1wsb2erg" name="HinhTron">
+        <generalization xmi:id="_uJwLsB-BEe2ZIM1wsb2erg" general="_rzVG4B-BEe2ZIM1wsb2erg"/>
+        <ownedAttribute xmi:id="_uJyA4B-BEe2ZIM1wsb2erg" name="banKinh" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_uJyn8R-BEe2ZIM1wsb2erg" name="dcf" visibility="package" type="_uJuWgB-BEe2ZIM1wsb2erg" association="_uJ4ukB-BEe2ZIM1wsb2erg">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_uJzPAB-BEe2ZIM1wsb2erg" value="new DecimalFormat(&quot;#.##&quot;)"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uJz2EB-BEe2ZIM1wsb2erg" name="HinhTron" specification="_uJUG0B-BEe2ZIM1wsb2erg">
+          <ownedParameter xmi:id="_uJz2ER-BEe2ZIM1wsb2erg" type="_uJS4sB-BEe2ZIM1wsb2erg" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>super();&#xD;
+		// TODO Auto-generated constructor stub&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uJ0dIB-BEe2ZIM1wsb2erg" name="HinhTron" specification="_uJVU8B-BEe2ZIM1wsb2erg">
+          <ownedParameter xmi:id="_uJ0dIR-BEe2ZIM1wsb2erg" name="banKinh">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uJ0dIh-BEe2ZIM1wsb2erg" type="_uJS4sB-BEe2ZIM1wsb2erg" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>super();&#xD;
+		this.banKinh = banKinh;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uJ1EMB-BEe2ZIM1wsb2erg" name="tinhDienTich" specification="_uJV8AB-BEe2ZIM1wsb2erg">
+          <ownedParameter xmi:id="_uJ1EMR-BEe2ZIM1wsb2erg" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return 3.14*banKinh*banKinh;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uJ2SUB-BEe2ZIM1wsb2erg" name="toString" specification="_uJaNcR-BEe2ZIM1wsb2erg">
+          <ownedParameter xmi:id="_uJ2SUR-BEe2ZIM1wsb2erg" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &quot;Hình tròn có bán kính = &quot;+this.banKinh+&quot;, Diện tích = &quot;+dcf.format(tinhDienTich());&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_uJUG0B-BEe2ZIM1wsb2erg" name="HinhTron" method="_uJz2EB-BEe2ZIM1wsb2erg">
+          <eAnnotations xmi:id="_uJUt4B-BEe2ZIM1wsb2erg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_uJUt4R-BEe2ZIM1wsb2erg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_uJUt4h-BEe2ZIM1wsb2erg" type="_uJS4sB-BEe2ZIM1wsb2erg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_uJVU8B-BEe2ZIM1wsb2erg" name="HinhTron" method="_uJ0dIB-BEe2ZIM1wsb2erg">
+          <eAnnotations xmi:id="_uJVU8h-BEe2ZIM1wsb2erg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_uJVU8x-BEe2ZIM1wsb2erg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_uJVU8R-BEe2ZIM1wsb2erg" name="banKinh">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uJVU9B-BEe2ZIM1wsb2erg" type="_uJS4sB-BEe2ZIM1wsb2erg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_uJV8AB-BEe2ZIM1wsb2erg" name="tinhDienTich" method="_uJ1EMB-BEe2ZIM1wsb2erg">
+          <ownedParameter xmi:id="_uJWjEB-BEe2ZIM1wsb2erg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_uJaNcR-BEe2ZIM1wsb2erg" name="toString" method="_uJ2SUB-BEe2ZIM1wsb2erg">
+          <ownedParameter xmi:id="_uJa0gB-BEe2ZIM1wsb2erg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_uJ4ukB-BEe2ZIM1wsb2erg" name="" memberEnd="_uJ4ukR-BEe2ZIM1wsb2erg _uJyn8R-BEe2ZIM1wsb2erg">
+        <ownedEnd xmi:id="_uJ4ukR-BEe2ZIM1wsb2erg" name="" type="_uJS4sB-BEe2ZIM1wsb2erg" association="_uJ4ukB-BEe2ZIM1wsb2erg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_vq0V0B-BEe2ZIM1wsb2erg" name="DanhSachHinh">
+        <ownedAttribute xmi:id="_vrdPAB-BEe2ZIM1wsb2erg" name="arrHinhHoc" visibility="package" type="_R3vpcB-TEe249f6KgFZV3g"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vrfEMB-BEe2ZIM1wsb2erg" name="DanhSachHinh" specification="_vq4nQB-BEe2ZIM1wsb2erg">
+          <ownedParameter xmi:id="_vrfEMR-BEe2ZIM1wsb2erg" type="_vq0V0B-BEe2ZIM1wsb2erg" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>super();&#xD;
+		// TODO Auto-generated constructor stub&#xD;
+		arrHinhHoc=new ArrayList&lt;>();&#xD;
+		/*&#xD;
+		 * Tạo hàm tạo mặc định để khởi tạo ArrayList và thêm vào 3 hình bất kỳ được xác định trước &#xD;
+		 * (không nhập từ bàn phím, gồm cả 2 loại hình).&#xD;
+		 */&#xD;
+		arrHinhHoc.add(new HinhChuNhat(7,3));&#xD;
+		arrHinhHoc.add(new HinhTron(3));&#xD;
+		arrHinhHoc.add(new HinhChuNhat(10,1));&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vrfrQB-BEe2ZIM1wsb2erg" name="themHinh" specification="_vrbZ0B-BEe2ZIM1wsb2erg">
+          <ownedParameter xmi:id="_vrfrQR-BEe2ZIM1wsb2erg" name="hinhHoc" type="_rzVG4B-BEe2ZIM1wsb2erg"/>
+          <language>java</language>
+          <body>arrHinhHoc.add(hinhHoc);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vrfrQh-BEe2ZIM1wsb2erg" name="hienThiDanhSachHinh" specification="_vq51YB-BEe2ZIM1wsb2erg">
+          <language>java</language>
+          <body>for(int i=0; i&lt;arrHinhHoc.size(); i++) {&#xD;
+			System.out.println(arrHinhHoc.get(i).toString());&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vrgSUB-BEe2ZIM1wsb2erg" name="demSoHinhChuNhat" specification="_vq6ccB-BEe2ZIM1wsb2erg">
+          <ownedParameter xmi:id="_vrgSUR-BEe2ZIM1wsb2erg" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>int soHinhChuNhat=0;&#xD;
+		//Khởi tạo đối tượng có kiểu trả về là HinhHoc để truy cập Arraylist &#xD;
+		for(HinhHoc hinhHoc : arrHinhHoc) {&#xD;
+			//Phương thức instance of so sánh một đối tượng có nằm trong lớp đó hay không và trả về trị true false&#xD;
+			if(hinhHoc instanceof HinhChuNhat) {&#xD;
+				soHinhChuNhat++;&#xD;
+			}&#xD;
+		}&#xD;
+		return soHinhChuNhat;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vrgSUh-BEe2ZIM1wsb2erg" name="hienThiHinhChuNhatCoDienTichLonNhat" specification="_vq7DgB-BEe2ZIM1wsb2erg">
+          <language>java</language>
+          <body>double temp=0;&#xD;
+		HinhChuNhat hinhChuNhat=new HinhChuNhat();&#xD;
+		for(HinhHoc hinhHoc : arrHinhHoc) {&#xD;
+			if(hinhHoc instanceof HinhChuNhat) {&#xD;
+				if(temp&lt;hinhHoc.tinhDienTich()) {&#xD;
+					temp=hinhHoc.tinhDienTich();&#xD;
+					hinhChuNhat=(HinhChuNhat) hinhHoc;&#xD;
+				}&#xD;
+			}&#xD;
+		}&#xD;
+		System.out.println(&quot;Hình chữ nhật có diện tích lớn nhất là: &quot;+hinhChuNhat.toString());&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_vq4nQB-BEe2ZIM1wsb2erg" name="DanhSachHinh" method="_vrfEMB-BEe2ZIM1wsb2erg">
+          <eAnnotations xmi:id="_vq4nQR-BEe2ZIM1wsb2erg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_vq4nQh-BEe2ZIM1wsb2erg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_vq4nQx-BEe2ZIM1wsb2erg" type="_vq0V0B-BEe2ZIM1wsb2erg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_vq51YB-BEe2ZIM1wsb2erg" name="hienThiDanhSachHinh" method="_vrfrQh-BEe2ZIM1wsb2erg"/>
+        <ownedOperation xmi:id="_vq6ccB-BEe2ZIM1wsb2erg" name="demSoHinhChuNhat" method="_vrgSUB-BEe2ZIM1wsb2erg">
+          <ownedParameter xmi:id="_vq6ccR-BEe2ZIM1wsb2erg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_vq7DgB-BEe2ZIM1wsb2erg" name="hienThiHinhChuNhatCoDienTichLonNhat" method="_vrgSUh-BEe2ZIM1wsb2erg"/>
+        <ownedOperation xmi:id="_vrbZ0B-BEe2ZIM1wsb2erg" name="themHinh" method="_vrfrQB-BEe2ZIM1wsb2erg">
+          <ownedParameter xmi:id="_vrbZ0R-BEe2ZIM1wsb2erg" name="hinhHoc" type="_rzVG4B-BEe2ZIM1wsb2erg"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_Bt2A8B-DEe2ZIM1wsb2erg" client="_vq0V0B-BEe2ZIM1wsb2erg" supplier="_rzVG4B-BEe2ZIM1wsb2erg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_uJOAMB-BEe2ZIM1wsb2erg" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_uJOnQB-BEe2ZIM1wsb2erg" name="text">
+        <packagedElement xmi:type="uml:Class" xmi:id="_uJuWgB-BEe2ZIM1wsb2erg" name="DecimalFormat"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_vqlFQB-BEe2ZIM1wsb2erg" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_IASr4B-CEe2ZIM1wsb2erg" name="Random"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_IATS8R-CEe2ZIM1wsb2erg" name="Scanner"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_R3vpcB-TEe249f6KgFZV3g" name="ArrayList"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_rzVt8B-BEe2ZIM1wsb2erg">
+      <eAnnotations xmi:id="_rzdCsB-BEe2ZIM1wsb2erg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tBDeQB-BEe2ZIM1wsb2erg" base_Element="_tBCQIB-BEe2ZIM1wsb2erg"/>
+  <UMLLabProfile:Annotations xmi:id="_tBHIoB-BEe2ZIM1wsb2erg" base_Element="_tBCQIB-BEe2ZIM1wsb2erg">
+    <annotations xmi:id="_tBHvsB-BEe2ZIM1wsb2erg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tBJk4B-BEe2ZIM1wsb2erg" base_Element="_tBIWwB-BEe2ZIM1wsb2erg"/>
+  <UMLLabProfile:Annotations xmi:id="_tBJk4R-BEe2ZIM1wsb2erg" base_Element="_tBIWwB-BEe2ZIM1wsb2erg">
+    <annotations xmi:id="_tBKL8B-BEe2ZIM1wsb2erg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:MultiDeclaration xmi:id="_tBm34B-BEe2ZIM1wsb2erg" base_Property="_tBmQ0B-BEe2ZIM1wsb2erg" siblings="_tB5y0B-BEe2ZIM1wsb2erg" root="true"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tBoGAB-BEe2ZIM1wsb2erg" base_Element="_tBmQ0B-BEe2ZIM1wsb2erg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_tB6Z4B-BEe2ZIM1wsb2erg" base_Property="_tB5y0B-BEe2ZIM1wsb2erg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tB6Z4R-BEe2ZIM1wsb2erg" base_Element="_tB5y0B-BEe2ZIM1wsb2erg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uJY_UB-BEe2ZIM1wsb2erg" base_Element="_uJV8AB-BEe2ZIM1wsb2erg"/>
+  <UMLLabProfile:Annotations xmi:id="_uJZmYB-BEe2ZIM1wsb2erg" base_Element="_uJV8AB-BEe2ZIM1wsb2erg">
+    <annotations xmi:id="_uJaNcB-BEe2ZIM1wsb2erg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uJbbkB-BEe2ZIM1wsb2erg" base_Element="_uJaNcR-BEe2ZIM1wsb2erg"/>
+  <UMLLabProfile:Annotations xmi:id="_uJcCoB-BEe2ZIM1wsb2erg" base_Element="_uJaNcR-BEe2ZIM1wsb2erg">
+    <annotations xmi:id="_uJcpsB-BEe2ZIM1wsb2erg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_uJu9kB-BEe2ZIM1wsb2erg" base_Element="_uJuWgB-BEe2ZIM1wsb2erg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uJyn8B-BEe2ZIM1wsb2erg" base_Element="_uJyA4B-BEe2ZIM1wsb2erg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uJzPAR-BEe2ZIM1wsb2erg" base_Element="_uJyn8R-BEe2ZIM1wsb2erg"/>
+  <UMLLabProfile:Reference xmi:id="_uJ58sB-BEe2ZIM1wsb2erg" base_Element="_uJ4ukB-BEe2ZIM1wsb2erg"/>
+  <UMLLabProfile:Generics xmi:id="_vredIB-BEe2ZIM1wsb2erg" genericsValue="HinhHoc" base_Element="_vrdPAB-BEe2ZIM1wsb2erg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_vredIR-BEe2ZIM1wsb2erg" base_Element="_vrdPAB-BEe2ZIM1wsb2erg"/>
+  <UMLLabProfile:Reference xmi:id="_IATS8B-CEe2ZIM1wsb2erg" base_Element="_IASr4B-CEe2ZIM1wsb2erg"/>
+  <UMLLabProfile:Reference xmi:id="_IAUhEB-CEe2ZIM1wsb2erg" base_Element="_IATS8R-CEe2ZIM1wsb2erg"/>
+  <UMLLabProfile:Reference xmi:id="_R3xeoB-TEe249f6KgFZV3g" base_Element="_R3vpcB-TEe249f6KgFZV3g"/>
+</xmi:XMI>
